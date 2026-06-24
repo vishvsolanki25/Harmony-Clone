@@ -1,0 +1,70 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+}
+
+.overlay h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 2px;
+}
+
+.yellow {
+  color: #f5b400;
+  font-size: 40px;
+  font-weight: extra-bold;
+  margin: 5px 0;
+}
+
+.overlay h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.zz {
+  margin-top: 10px;
+
+  display: flex;
+  gap: 10px;
+
+  font-size: 14px;
+}
+
+.zz a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+

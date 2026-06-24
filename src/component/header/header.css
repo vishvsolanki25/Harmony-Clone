@@ -1,0 +1,94 @@
+.site-header {
+  padding: 24px 40px;
+  background: #000000;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 0 40px;
+}
+
+.site-nav a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.logo img {
+  height: 45px;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 12px 20px;
+  }
+
+  .logo img {
+    height: 32px;
+  }
+
+  .site-nav {
+    margin: 0 20px;
+    gap: 16px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 4px;
+  }
+
+  .site-nav a {
+    font-size: 14px;
+  }
+
+  .profile-icon {
+    width: 32px;
+    height: 32px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+}
